@@ -1,0 +1,22 @@
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.intro__container {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+}
+
+.intro__container > span {
+  margin-top: 1rem;
+}
+
+.intro__h1 {
+  font-size: 2rem;
+  margin: 0;
+}
