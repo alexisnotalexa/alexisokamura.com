@@ -8,23 +8,62 @@ const Projects = () => {
     <div className="projects">
       <Row>
         <div className="placeholder" />
-        <div className="projects__info">
-          <h1>Project 1</h1>
-          <span>Lorem ipsum dolor amet biodiesel everyday carry slow-carb knausgaard, kombucha bitters banh mi. Banh mi meggings jean shorts wayfarers. Pinterest PBR&B scenester occupy. Mixtape live-edge listicle semiotics, crucifix DIY chartreuse messenger bag. Poutine viral etsy tumeric artisan schlitz roof party gastropub pickled put a bird on it jean shorts succulents kickstarter. Semiotics snackwave aesthetic helvetica readymade wayfarers polaroid pinterest mlkshk tumblr hammock blog venmo man bun live-edge.</span>
+        <div className="project-info">
+          <h1>React Kanban</h1>
+          <span>Pinterest PBR&B scenester occupy. Mixtape live-edge listicle semiotics, crucifix DIY chartreuse messenger bag. Poutine viral etsy tumeric artisan schlitz roof party gastropub pickled put a bird on it jean shorts succulents kickstarter. Semiotics snackwave aesthetic helvetica readymade wayfarers polaroid pinterest mlkshk tumblr hammock blog venmo man bun live-edge.</span>
+          <div className="project-stack">
+            <span>#React</span>
+            <span>#React</span>
+            <span>#React</span>
+            <span>#React</span>
+            <span>#React</span>
+            <span>#React</span>
+          </div>
         </div>
       </Row>
       <Row>
-        <div className="projects__info">
-          <h1>Project 1</h1>
-          <span>Lorem ipsum dolor amet biodiesel everyday carry slow-carb knausgaard, kombucha bitters banh mi. Banh mi meggings jean shorts wayfarers. Pinterest PBR&B scenester occupy. Mixtape live-edge listicle semiotics, crucifix DIY chartreuse messenger bag. Poutine viral etsy tumeric artisan schlitz roof party gastropub pickled put a bird on it jean shorts succulents kickstarter. Semiotics snackwave aesthetic helvetica readymade wayfarers polaroid pinterest mlkshk tumblr hammock blog venmo man bun live-edge.</span>
-        </div>
         <div className="placeholder" />
+        <div className="project-info">
+          <h1>Personal Website V2</h1>
+          <span>Pinterest PBR&B scenester occupy. Mixtape live-edge listicle semiotics, crucifix DIY chartreuse messenger bag. Poutine viral etsy tumeric artisan schlitz roof party gastropub pickled put a bird on it jean shorts succulents kickstarter. Semiotics snackwave aesthetic helvetica readymade wayfarers polaroid pinterest mlkshk tumblr hammock blog venmo man bun live-edge.</span>
+          <div className="project-stack">
+            <span>#React</span>
+            <span>#React</span>
+            <span>#React</span>
+            <span>#React</span>
+            <span>#React</span>
+            <span>#React</span>
+          </div>
+        </div>
       </Row>
       <Row>
         <div className="placeholder" />
-        <div className="projects__info">
-          <h1>Project 1</h1>
-          <span>Lorem ipsum dolor amet biodiesel everyday carry slow-carb knausgaard, kombucha bitters banh mi. Banh mi meggings jean shorts wayfarers. Pinterest PBR&B scenester occupy. Mixtape live-edge listicle semiotics, crucifix DIY chartreuse messenger bag. Poutine viral etsy tumeric artisan schlitz roof party gastropub pickled put a bird on it jean shorts succulents kickstarter. Semiotics snackwave aesthetic helvetica readymade wayfarers polaroid pinterest mlkshk tumblr hammock blog venmo man bun live-edge.</span>
+        <div className="project-info">
+          <h1>Help Your City</h1>
+          <span>Pinterest PBR&B scenester occupy. Mixtape live-edge listicle semiotics, crucifix DIY chartreuse messenger bag. Poutine viral etsy tumeric artisan schlitz roof party gastropub pickled put a bird on it jean shorts succulents kickstarter. Semiotics snackwave aesthetic helvetica readymade wayfarers polaroid pinterest mlkshk tumblr hammock blog venmo man bun live-edge.</span>
+          <div className="project-stack">
+            <span>#React</span>
+            <span>#React</span>
+            <span>#React</span>
+            <span>#React</span>
+            <span>#React</span>
+            <span>#React</span>
+          </div>
+        </div>
+      </Row>
+      <Row>
+        <div className="placeholder" />
+        <div className="project-info">
+          <h1>FreeCodeCamp</h1>
+          <span>Pinterest PBR&B scenester occupy. Mixtape live-edge listicle semiotics, crucifix DIY chartreuse messenger bag. Poutine viral etsy tumeric artisan schlitz roof party gastropub pickled put a bird on it jean shorts succulents kickstarter. Semiotics snackwave aesthetic helvetica readymade wayfarers polaroid pinterest mlkshk tumblr hammock blog venmo man bun live-edge.</span>
+          <div className="project-stack">
+            <span>#React</span>
+            <span>#React</span>
+            <span>#React</span>
+            <span>#React</span>
+            <span>#React</span>
+            <span>#React</span>
+          </div>
         </div>
       </Row>
     </div>

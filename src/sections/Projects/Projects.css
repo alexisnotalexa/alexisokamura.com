@@ -4,6 +4,27 @@
   height: 300px;
 }
 
-.projects__info {
-  width: 50%;
+.project-info {
+  width: 400px;
+}
+
+.project-info > h1 {
+  margin-bottom: .5rem;
+}
+
+.project-stack {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.project-stack > span {
+  color: gainsboro;
+  margin-right: 1rem;
+}
+
+@media only screen and (min-device-width: 900px) and (min-width: 900px) {
+  .row:nth-child(even) {
+    flex-direction: row-reverse;
+  }
 }

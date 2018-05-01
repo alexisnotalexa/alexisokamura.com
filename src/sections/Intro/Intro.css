@@ -29,6 +29,7 @@
 }
 
 .h1--highlight {
+  font-weight: bold;
   background: linear-gradient(to bottom, transparent 55%, #fff87e 0%);
   background-size: 100%;
 }
