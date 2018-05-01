@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
 
+import { Link, Element , Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
+
 // COMPONENTS
 import Intro from './sections/Intro';
 import Navbar from './components/Navbar';

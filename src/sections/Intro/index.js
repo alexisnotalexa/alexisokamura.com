@@ -5,10 +5,12 @@ const Intro = () => {
   return (
     <div className="intro">
       <div className="intro__container">
-        <h1 className="intro__h1">Hi there —</h1>
-        <h1 className="intro__h1">I'm Alexis Okamura. I'm a Full Stack Developer from Honolulu, Hawaii.</h1>
-        <span>Lorem ipsum dolor amet authentic pickled crucifix, four loko poke master cleanse VHS post-ironic shoreditch leggings kombucha fingerstache schlitz.
-        Hella bespoke cloud bread beard, raw denim literally photo booth sriracha viral crucifix chia.</span>
+        <h1 className="intro__h1">
+          Hello! I’m Alexis Okamura, a full stack developer passionate
+          about design and building delightful user experiences.
+        </h1>
+        <span>Let's talk story 🤙 hello@alexisokamura.com</span>
+        <div className="line" />
       </div>
     </div>
   );
