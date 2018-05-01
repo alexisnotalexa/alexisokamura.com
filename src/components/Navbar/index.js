@@ -6,15 +6,10 @@ import { Link, Element , Events, animateScroll as scroll, scrollSpy, scroller } 
 const Navbar = () => {
   return (
     <div className="navbar">
-      <a href="#section1">Work</a>
-      <a href="#section2">About</a>
-      <a href="#">Contact</a>
-      <Link activeClass="active" to="test1" spy={true} smooth={true} duration={500}>
-          Test 1
-      </Link>
-      <Link activeClass="active" to="test2" spy={true} smooth={true} duration={500}>
-          Test 2
-      </Link>
+      <Link to="about" smooth={true} duration={500}>About</Link>
+      <Link to="projects" smooth={true} duration={500}>Projects</Link>
+      <a>Resume</a>
+      <Link to="contact" smooth={true} duration={500}>Contact</Link>
     </div>
   );
 }

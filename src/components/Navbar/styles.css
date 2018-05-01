@@ -2,7 +2,42 @@
   display: flex;
   justify-content: space-between;
   position: absolute;
-  top: 3rem;
-  right: 3rem;
-  width: 250px;
+  top: 3.5rem;
+  right: 50%;
+  margin-right: -150px;
+  width: 300px;
+}
+
+.navbar > a {
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+}
+
+.navbar > a::after {
+  background: black;
+  bottom: -5px;
+  position: absolute;
+  content: '';
+  left: 0;
+  height: 2px;
+  width: 100%;
+  opacity: 0;
+  transform: scale(0, 1);
+  transition: transform .3s;
+  visibility: hidden;
+}
+
+.navbar > a:hover::after {
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1,1);
+  transform-origin: left top;
+}
+
+@media only screen and (min-device-width: 768px) and (min-width: 768px) {
+  .navbar {
+    margin-right: 0;
+    right: 5rem;
+  }
 }
