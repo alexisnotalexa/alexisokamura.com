@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import './App.css';
 
-import { Link, Element , Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
-
 // COMPONENTS
-import Intro from './sections/Intro';
 import Navbar from './components/Navbar';
+import Intro from './sections/Intro';
+import Projects from './sections/Projects';
+import About from './sections/About';
+
 
 class App extends Component {
   render() {
@@ -13,6 +14,8 @@ class App extends Component {
       <div className="App">
         <Navbar />
         <Intro />
+        <Projects />
+        <About />
       </div>
     );
   }

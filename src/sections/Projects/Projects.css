@@ -1,0 +1,9 @@
+.placeholder {
+  background: lightgray;
+  width: 400px;
+  height: 300px;
+}
+
+.projects__info {
+  width: 50%;
+}
