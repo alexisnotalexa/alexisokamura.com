@@ -10,7 +10,7 @@ const Intro = () => {
         <h1>
           Hello! I’m <a class="h1--highlight">Alexis Okamura</a>, a full
           stack developer passionate about design and building delightful
-          user experiences. ✨
+          user experiences.
         </h1>
       </div>
       <Link to="projects" smooth={true} duration={500}>view work</Link>
