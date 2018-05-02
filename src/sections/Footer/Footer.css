@@ -25,13 +25,23 @@
   .footer {
     font-size: 1rem;
   }
+}
 
+@media only screen and (min-device-width: 800px) and (min-width: 900px) {
   .footer-cont {
     flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
   }
 
   .footer-links {
+    display: block;
     margin: 0;
+    width: auto;
+  }
+
+  .footer-links > span {
+    margin-left: 1rem;
   }
 }
 /*.footer {
