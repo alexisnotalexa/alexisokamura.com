@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="footer-email">
-        <span>Email</span>
+        <span style={{color:'coral'}}>Email</span>
         <span>hello@alexisokamura.com</span>
       </div>
       <div className="footer-links">
