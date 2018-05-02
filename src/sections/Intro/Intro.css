@@ -41,11 +41,11 @@
 }
 
 .vertical-line {
-  height: 8rem;
+  height: 6rem;
   width: 1px;
   background: lightgray;
   position: absolute;
-  bottom: 0;
+  bottom: 4%;
   left: 50%;
   animation: show-line .5s .8s;
   animation-fill-mode: backwards;
