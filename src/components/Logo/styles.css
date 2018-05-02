@@ -1,6 +1,7 @@
 .logo {
   background: coral;
   border-radius: 50%;
+  cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -8,4 +9,13 @@
   color: white;
   height: 50px;
   width: 50px;
+  transition: all .1s;
+}
+
+.logo:hover {
+  transform: scale(1.1);
+}
+
+.logo:active {
+  transform: translateY(-1px);
 }
