@@ -7,7 +7,7 @@
 }
 
 .intro > a {
-  color: gray;
+  color: rgba(0,0,0,0.3);
   cursor: pointer;
   font-size: .8rem;
   position: absolute;
@@ -43,7 +43,7 @@
 .vertical-line {
   height: 6rem;
   width: 1px;
-  background: lightgray;
+  background: rgba(0,0,0,0.2);
   position: absolute;
   bottom: 4%;
   left: 50%;
