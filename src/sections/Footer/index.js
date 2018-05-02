@@ -4,16 +4,15 @@ import './Footer.css';
 const Footer = () => {
   return (
     <div className="footer">
-      <div className="footer-email">
-        <span style={{color:'coral'}}>Email</span>
-        <span>hello@alexisokamura.com</span>
-      </div>
-      <div className="footer-links">
-        <span>Linkedin</span>
-        <span>Github</span>
-        <span>Codepen</span>
-        <span>Twitter</span>
-        <span>Resume</span>
+      <div className="footer-cont">
+        <span>Copyright &copy; 2018 – Alexis Okamura</span>
+        <div className="footer-links">
+          <span>Linkedin</span>
+          <span>Github</span>
+          <span>Codepen</span>
+          <span>Twitter</span>
+          <span>Resume</span>
+        </div>
       </div>
     </div>
   );
