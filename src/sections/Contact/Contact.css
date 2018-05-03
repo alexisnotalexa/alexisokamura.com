@@ -1,0 +1,35 @@
+h4 {
+  color: midnightblue;
+  font-weight: 500;
+  margin-top: 0;
+}
+
+p {
+  color: gray;
+}
+
+.contact {
+  background: ghostwhite;
+  padding: 3rem 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 80%;
+}
+
+@media only screen and (min-device-width: 800px) and (min-width: 900px) {
+  .contact-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .contact__about {
+    width: 50%;
+  }
+}
