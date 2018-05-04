@@ -1,43 +1,52 @@
 .footer {
   background: midnightblue;
-  font-size: .8rem;
-  color: white;
   padding: 2rem 0;
 }
 
-.footer-cont {
+.footer__container {
   display: flex;
   flex-direction: column-reverse;
   align-items: center;
+  color: white;
+  font-size: .8rem;
 }
 
-.footer-links {
+.footer__links {
   display: flex;
   justify-content: space-between;
   margin-bottom: 1rem;
   width: 300px;
 }
 
+.footer__links > a {
+  color: white;
+}
+
+.footer__links > a:hover {
+  color: gainsboro;
+}
+
+/* --- MEDIA QUERIES --- */
 @media only screen and (min-device-width: 414px) and (min-width: 414px) {
-  .footer {
+  .footer__container {
     font-size: 1rem;
   }
 }
 
 @media only screen and (min-device-width: 800px) and (min-width: 900px) {
-  .footer-cont {
+  .footer__container {
     flex-direction: row;
     justify-content: space-between;
     width: 80%;
   }
 
-  .footer-links {
+  .footer__links {
     display: block;
     margin: 0;
     width: auto;
   }
 
-  .footer-links > span {
+  .footer__links > a {
     margin-left: 1rem;
   }
 }
