@@ -11,8 +11,7 @@ const Navbar = () => {
     <div className="navbar">
       <Logo />
       <div className="nav">
-      <Link to="about" smooth={true} duration={500}>About</Link>
-      <Link to="projects" smooth={true} duration={500}>Projects</Link>
+      <Link to="projects" smooth={true} duration={500}>Work</Link>
       <a>Resume</a>
       <Link to="contact" smooth={true} duration={500}>Contact</Link>
       </div>
