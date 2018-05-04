@@ -5,7 +5,7 @@ import { Link, Element , Events, animateScroll as scroll, scrollSpy, scroller } 
 
 const Intro = () => {
   return (
-    <div className="intro">
+    <div className="intro align-center">
       <div className="intro__container">
         <h1>
           Hello! I’m <a class="h1--highlight">Alexis Okamura</a>, a full

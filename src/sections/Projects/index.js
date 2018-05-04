@@ -7,7 +7,7 @@ import ReactKanban from '../../assets/react-kanban.jpg';
 
 const Projects = () => {
   return (
-    <div className="projects">
+    <div className="projects align-center">
       <div className="project-container">
         <div className="img">
           <img src={ReactKanban} />

@@ -3,7 +3,7 @@ import './Footer.css';
 
 const Footer = () => {
   return (
-    <div className="footer">
+    <div className="footer align-center">
       <div className="footer-cont">
         <span>Copyright &copy; 2018 – Alexis Okamura</span>
         <div className="footer-links">
