@@ -12,8 +12,18 @@ a  {
   text-decoration: none;
 }
 
+p {
+  color: gray;
+}
+
 h1 {
   font-family: 'Roboto Slab', serif;
+}
+
+h4 {
+  color: midnightblue;
+  font-weight: 500;
+  margin-top: 0;
 }
 
 .align-center {
