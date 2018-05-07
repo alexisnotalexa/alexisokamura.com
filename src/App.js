@@ -5,7 +5,6 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Intro from './sections/Intro';
 import Projects from './sections/Projects';
-import About from './sections/About';
 import Footer from './sections/Footer';
 import Contact from './sections/Contact';
 
