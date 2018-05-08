@@ -7,15 +7,16 @@
   padding: 3.5rem 0;
 }
 
-.img {
+.img-container {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
   object-fit: contain;
   padding: 3rem;
 }
 
-.img > img {
+.img-container > img {
   box-shadow: 0 0 20px rgba(0,0,0,0.15);
   height: 100%;
   width: 100%;
@@ -30,6 +31,7 @@
   margin-right: 1rem;
 }
 
-.project-container__info > h1 {
+.project-container__info > a, a > h1 {
+  color: black;
   margin-bottom: 0;
 }
