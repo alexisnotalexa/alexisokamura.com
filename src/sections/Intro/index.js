@@ -13,7 +13,7 @@ const Intro = () => {
           user experiences.
         </h1>
       </div>
-      <Link to="projects" smooth={true} duration={500}>view work</Link>
+      <Link to="projects" smooth={true} duration={500}>get to know me</Link>
       <div className="vertical-line" />
     </div>
   );

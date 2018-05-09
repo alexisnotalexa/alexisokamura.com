@@ -4,7 +4,7 @@ import './Contact.css';
 const Contact = () => {
   return (
     <div className="contact align-center">
-      <div className="contact-container">
+      <div className="contact-container max-width">
         <div className="contact__about">
           <h4>About</h4>
           <p>If you’re going to have any takeaways after looking through my site, I'm Alexis, not <u>Alexa</u>.  I’m a full stack developer living in Honolulu, Hawaii.  More than anything I love being creative and get excited about being able to create products that will visually stun people.</p>

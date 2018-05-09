@@ -8,7 +8,7 @@ import Logo from '../Logo';
 
 const Navbar = () => {
   return (
-    <div className="navbar">
+    <div className="navbar max-width">
       <Logo />
       <div className="nav">
       <Link to="projects" smooth={true} duration={500}>Work</Link>

@@ -10,7 +10,7 @@ const Project = ({ title, description, img, link, color, stack }) => {
 
   return (
     <Reveal duration={2000} effect="fade-in">
-      <div className="project-container">
+      <div className="project-container max-width">
         <a href={link} target="_blank" rel="noopener noreferrer">
           <div className="img-container" style={{background: color}}>
             <img src={img} alt={title} />
