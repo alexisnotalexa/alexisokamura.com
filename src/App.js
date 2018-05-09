@@ -4,6 +4,7 @@ import './App.css';
 // COMPONENTS
 import Navbar from './components/Navbar';
 import Intro from './sections/Intro';
+import About from './sections/About';
 import Skills from './sections/Skills';
 import Projects from './sections/Projects';
 import Footer from './sections/Footer';
@@ -15,6 +16,7 @@ class App extends Component {
       <div className="App">
         <Navbar />
         <Intro />
+        <About />
         <Skills />
         <Projects />
         <Contact />
