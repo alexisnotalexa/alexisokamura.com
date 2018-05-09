@@ -4,7 +4,7 @@
   align-items: flex-start;
   width: 80%;
   max-width: 1024px;
-  padding: 3.5rem 0;
+  padding: 2rem 0;
 }
 
 .img-container {
@@ -36,4 +36,13 @@
 .project-container__info > a, a > h1 {
   color: black;
   margin-bottom: 0;
+}
+
+.fade-in {
+  animation: fadein;
+}
+
+@keyframes fadein {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
 }
