@@ -1,3 +1,7 @@
+.skills {
+  width: 100%;
+}
+
 .skills-container {
   display: flex;
   flex-direction: column;
@@ -14,7 +18,7 @@
   margin: 3px 0;
 }
 
-@media only screen and (min-device-width: 800px) and (min-width: 900px) {
+@media only screen and (min-device-width: 450px) and (min-width: 450px) {
   .skills-container {
     flex-direction: row;
     justify-content: space-around;

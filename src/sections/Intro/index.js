@@ -1,7 +1,7 @@
 import React from 'react';
 import './Intro.css';
 
-import { Link, Element , Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
+import { Link } from 'react-scroll';
 
 const Intro = () => {
   return (
@@ -13,7 +13,7 @@ const Intro = () => {
           user experiences.
         </h1>
       </div>
-      <Link to="projects" smooth={true} duration={500}>get to know me</Link>
+      <Link to="about" smooth={true} duration={500}>get to know me</Link>
       <div className="vertical-line" />
     </div>
   );

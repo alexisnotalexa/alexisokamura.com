@@ -5,7 +5,6 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Intro from './sections/Intro';
 import About from './sections/About';
-import Skills from './sections/Skills';
 import Projects from './sections/Projects';
 import Footer from './sections/Footer';
 import Contact from './sections/Contact';
@@ -17,7 +16,6 @@ class App extends Component {
         <Navbar />
         <Intro />
         <About />
-        <Skills />
         <Projects />
         <Contact />
         <Footer />

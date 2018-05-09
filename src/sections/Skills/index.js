@@ -3,7 +3,7 @@ import './Skills.css';
 
 const Skills = () => {
   return (
-    <div className="align-center">
+    <div className="skills align-center">
       <div className="skills-container max-width">
         <div className="col">
           <h5>Languages</h5>
