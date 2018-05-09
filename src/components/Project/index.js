@@ -7,16 +7,18 @@ const Project = ({ title, description, img, link, color, stack }) => {
   });
   return (
     <div className="project-container">
-      <a href={link} target="_blank">
+      <a href={link} target="_blank" rel="noopener noreferrer">
         <div className="img-container" style={{background: color}}>
-          <img src={img} />
+          <img src={img} alt={title} />
         </div>
       </a>
       <div className="project-container__stack">
         {techStack}
       </div>
       <div className="project-container__info">
-        <a href={link} target="_blank"><h1>{title}</h1></a>
+        <a href={link} target="_blank" rel="noopener noreferrer">
+          <h1>{title}</h1>
+        </a>
         <span>{description}</span>
       </div>
     </div>
