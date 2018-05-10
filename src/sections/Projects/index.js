@@ -13,6 +13,7 @@ import WeatherApp from '../../assets/weather-app.jpg';
 const Projects = () => {
   return (
     <div className="projects align-center">
+      <h3>Featured Projects</h3>
       <Project
         title="React Kanban"
         description="A task managing web application (essentially a kanban board) built for one of the required projects for Devleague.  In this project, I decided to explore and learn more about working with React.  I created two versions, one utilizing a full spectrum of technologies - React, Redux, Express, Node, Redis, PostgreSQL, Sequelize, and Axios.  While the other solely using React and Redux.  You can test out the React/Redux version by using 'test' as the username and password to login."

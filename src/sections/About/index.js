@@ -22,7 +22,9 @@ const About = () => {
           <p>I’m currently looking for full-time opportunities on the West Coast!  Feel free to <u><a href="mailto:alexiskokamura@gmail.com">email me</a></u> or take a look at my <u><a href={resume} target="_blank">resume</a></u>.</p>
         </div>
       </div>
+      <hr />
       <Skills />
+      <hr />
     </div>
   );
 }

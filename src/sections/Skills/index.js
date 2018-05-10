@@ -4,6 +4,7 @@ import './Skills.css';
 const Skills = () => {
   return (
     <div className="skills align-center">
+      <h3>Skills</h3>
       <div className="skills-container max-width">
         <div className="col">
           <h5>Languages</h5>
