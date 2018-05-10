@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './App.css';
 
 // COMPONENTS
 import Navbar from './components/Navbar';

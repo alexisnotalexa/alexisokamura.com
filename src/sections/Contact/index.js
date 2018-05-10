@@ -4,6 +4,8 @@ import './Contact.css';
 import { Link } from 'react-scroll';
 
 const Contact = () => {
+  const slashes= "//";
+
   return (
     <div className="contact align-center">
       <div className="contact-container max-width">
@@ -25,13 +27,13 @@ const Contact = () => {
           </a>
           <h4>Social</h4>
           <a href="https://codepen.io/alexisnotalexa" target="_blank" rel="noopener noreferrer" title="CodePen">
-            <p><span className="slash">//</span>Codepen</p>
+            <p><span className="slash">{slashes}</span>Codepen</p>
           </a>
           <a href="https://github.com/alexisnotalexa" target="_blank" rel="noopener noreferrer" title="GitHub">
-            <p><span className="slash">//</span>Github</p>
+            <p><span className="slash">{slashes}</span>Github</p>
           </a>
           <a href="https://www.linkedin.com/in/alexiskokamura" target="_blank" rel="noopener noreferrer" title="Linkedin">
-            <p><span className="slash">//</span>Linkedin</p>
+            <p><span className="slash">{slashes}</span>Linkedin</p>
           </a>
         </div>
       </div>
