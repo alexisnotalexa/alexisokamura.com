@@ -3,7 +3,9 @@ import './styles.css';
 
 const Logo = () => {
   return (
-    <div className="logo">a|o</div>
+    <a className="logo" href="https://www.alexisokamura.com/">
+      <span>a|o</span>
+    </a>
   );
 }
 
