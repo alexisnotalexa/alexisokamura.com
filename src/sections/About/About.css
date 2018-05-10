@@ -13,10 +13,6 @@
   color: black;
 }
 
-.about-info > span {
-  font-weight: 500;
-}
-
 .profile-img {
   object-fit: contain;
 }
