@@ -6,12 +6,13 @@
 .intro > a {
   color: rgba(0,0,0,0.3);
   cursor: pointer;
-  font-size: .8rem;
+  font-size: 12px;
   position: absolute;
   bottom: 28%;
   transition: all .3s;
   animation: fade-in 1s 1.3s;
   animation-fill-mode: backwards;
+  text-transform: uppercase;
 }
 
 .intro > a:hover {
@@ -27,15 +28,13 @@
 }
 
 .intro__container > h1 {
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   font-weight: 400;
   margin: 0;
 }
 
 .h1--highlight {
-  font-weight: bold;
-  /*background: linear-gradient(to bottom, transparent 55%, #fff87e 0%);
-  background-size: 100%;*/
+  font-weight: bolder;
 }
 
 .vertical-line {
@@ -49,9 +48,14 @@
   animation-fill-mode: backwards;
 }
 
-@media only screen and (min-device-width: 768px) and (min-width: 768px) {
+@media only screen and (min-device-width: 500px) and (min-width: 500px) {
+  .intro__container > h1 {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (min-device-width: 800px) and (min-width: 800px) {
   .intro > a {
-    font-size: 1rem;
     bottom: 22%;
   }
 
