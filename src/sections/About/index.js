@@ -1,9 +1,12 @@
 import React from 'react';
 import './About.css';
 
-import Skills from '../Skills';
-
+// ASSETS
 import me from '../../assets/alexis-okamura.jpg';
+import resume from '../../assets/Alexis-Okamura-Resume.pdf';
+
+// COMPONENTS
+import Skills from '../Skills';
 
 const About = () => {
   return (
@@ -13,9 +16,10 @@ const About = () => {
           <img src={me} alt="Alexis Okamura" />
         </div>
         <div className="about-info">
-          <span>Nice to meet you!</span>
-          <p>Lorem ipsum dolor amet vape aesthetic DIY hashtag shaman flexitarian. Poke live-edge paleo copper mug portland, vape VHS brunch butcher ethical. Photo booth whatever celiac listicle paleo shabby chic. Fingerstache forage mixtape la croix artisan humblebrag. Synth fingerstache unicorn pour-over you probably haven't heard of them. Hot chicken small batch organic helvetica franzen, lomo godard 8-bit locavore disrupt truffaut trust fund affogato pok pok.</p>
-          <p>Lorem ipsum dolor amet vape aesthetic DIY hashtag shaman flexitarian. Poke live-edge paleo copper mug portland, vape VHS brunch butcher ethical. Photo booth whatever celiac listicle paleo shabby chic. Fingerstache forage mixtape la croix artisan humblebrag. Synth fingerstache unicorn pour-over you probably haven't heard of them. Hot chicken small batch organic helvetica franzen, lomo godard 8-bit locavore disrupt truffaut trust fund affogato pok pok.</p>
+          <span>Nice to meet you! – <span role="img" aria-label="wave">👋</span></span>
+          <p>Since I could hold a pencil I absolutely loved art.  As I grew older my passion for art translated into programming.  I use my eye for design and my obsessive attention to detail to create pixel-perfect interfaces.  More than anything I love being creative and get excited about being able to create products that will visually stun people.</p>
+          <p>When I’m not hacking away at my computer I’m jumping on my next flight to see what else this world has to offer!</p>
+          <p>I’m currently looking for full-time opportunities on the West Coast!  Feel free to <u><a href="mailto:alexiskokamura@gmail.com">email me</a></u> or take a look at my <u><a href={resume} target="_blank">resume</a></u>.</p>
         </div>
       </div>
       <Skills />
