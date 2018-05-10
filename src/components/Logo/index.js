@@ -4,7 +4,7 @@ import './styles.css';
 const Logo = () => {
   return (
     <a className="logo" href="https://www.alexisokamura.com/">
-      <span>a|o</span>
+      <span>a</span>
     </a>
   );
 }
