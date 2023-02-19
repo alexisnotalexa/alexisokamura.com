@@ -2,9 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './index.css';
-import App from './App/index';
-import Home from './Home/index';
-import About from './About/index';
+import App from 'App';
+import Home from 'Home';
+import About from 'About';
 import reportWebVitals from './reportWebVitals';
 
 const router = createBrowserRouter([
