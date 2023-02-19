@@ -1,3 +1,4 @@
+import Footer from 'Footer';
 import NavBar from 'NavBar';
 import './Home.css';
 
@@ -8,6 +9,7 @@ const Home = () => {
             <header>
                 <h1>Hi, I'm Alexis, not <i>Alexa</i>.<br />I'm a Software Engineer based in Brooklyn, NY.</h1>
             </header>
+            <Footer />
         </div>
     )
 };

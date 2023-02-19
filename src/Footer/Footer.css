@@ -1,0 +1,16 @@
+footer {
+    width: -webkit-fill-available;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+footer > svg {
+    margin-right: 0.5rem;
+}
+
+hr {
+    flex-grow: 1;
+    margin: 0 1rem;
+}

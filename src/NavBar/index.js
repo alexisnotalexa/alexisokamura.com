@@ -6,6 +6,7 @@ const NavBar = () => {
         <nav className='navbar'>
             <Link className='navbar__logo' to={'/'}>ao</Link>
             <div className='navbar__links'>
+                <span>🌞</span>
                 <Link to={'/about'}>About</Link>
                 <Link to={'/'}>Resume</Link>
             </div>
