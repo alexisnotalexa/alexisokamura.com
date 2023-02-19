@@ -5,6 +5,7 @@ const NavBar = () => {
     return (
         <nav className='navbar'>
             <Link className='navbar__logo' to={'/'}>ao</Link>
+            <hr />
             <div className='navbar__links'>
                 <span>🌞</span>
                 <Link to={'/about'}>About</Link>

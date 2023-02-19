@@ -4,3 +4,11 @@
     align-items: center;
     text-align: center;
 }
+
+.home > header {
+    width: 550px;
+}
+
+.home > header > h1 {
+    font-size: 3rem;
+}
