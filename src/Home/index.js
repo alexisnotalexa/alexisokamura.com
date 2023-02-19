@@ -1,10 +1,13 @@
-import Header from 'NavBar';
+import NavBar from 'NavBar';
+import './Home.css';
 
 const Home = () => {
     return (
-        <div>
-            <Header />
-            <h1>Home Page</h1>
+        <div className='home'>
+            <NavBar />
+            <header>
+                <h1>Hi, I'm Alexis, not <i>Alexa</i>.<br />I'm a Software Engineer based in Brooklyn, NY.</h1>
+            </header>
         </div>
     )
 };
