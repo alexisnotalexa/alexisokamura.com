@@ -4,16 +4,19 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
+          href="/home"
           rel="noopener noreferrer"
         >
-          Learn React
+          Home
+        </a>
+        <a
+          className="App-link"
+          href="/about"
+          rel="noopener noreferrer"
+        >
+          About
         </a>
       </header>
     </div>
