@@ -6,6 +6,21 @@
     width: -webkit-fill-available;
 }
 
+.navbar__theme-btn {
+    background: transparent;
+    border: none;
+    margin-right: 1rem;
+}
+
+.navbar__mobile-menu {
+    display: flex;
+    align-items: center;
+}
+
+.navbar__links {
+    display: none;
+}
+
 .navbar__links > a {
     color: black;
     font-weight: 500;
@@ -18,4 +33,14 @@
     font-size: 2rem;
     font-weight: bold;
     text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+    .navbar__mobile-menu {
+        display: none;
+    }
+
+    .navbar__links {
+        display: block;
+    }
 }
