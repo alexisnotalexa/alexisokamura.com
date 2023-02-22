@@ -1,7 +1,6 @@
 footer {
     width: -webkit-fill-available;
     display: flex;
-    flex: 1;
     align-items: center;
     padding: 0 1rem;
 }
