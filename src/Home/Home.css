@@ -6,7 +6,7 @@
     text-align: center;
 }
 
-.home > header {
+.home__content {
     width: auto;
     display: flex;
     flex: 1;
@@ -14,16 +14,79 @@
     padding: 0 2rem;
 }
 
-.home > header > h1 {
+.home__content > h1 {
     font-size: 1.75rem;
 }
 
+.home__gradient {
+    width: 250px;
+    height: 250px;
+    display: flex;
+    background-color: aliceblue;
+    border-radius: 50%;
+    flex-wrap: wrap;
+    overflow: hidden;
+    position: relative;
+}
+
+.home__gradient__backdrop {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    background: transparent;
+    backdrop-filter: blur(10vw);
+}
+
+.home__gradient__color {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    border-radius: 30% 80% 75% 40% / 40% 40% 70% 50%;
+    animation-name: animate;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes animate {
+    0% {
+        border-radius: 30% 70% 70% 30% / 30% 30% 70% 60%;
+        transform: scale(2) rotate(0deg) translate(10%, 10%);
+    }
+    100% {
+        border-radius: 88% 10% 22% 58% / 73% 56% 34% 77%;
+        transform: scale(2) rotate(180deg) translate(10%, -10%);
+    }
+}
+
+.home__gradient__color:nth-child(1) {
+    background-color: blue;
+    animation-direction: backwards;
+}
+
+.home__gradient__color:nth-child(2) {
+    background-color: greenyellow;
+}
+
+.home__gradient__color:nth-child(3) {
+    background-color: yellowgreen;
+    animation-direction: backwards;
+}
+
+.home__gradient__color:nth-child(4) {
+    background-color: pink;
+}
+
 @media screen and (min-width: 768px) {
-    .home > header {
+    .home__content {
         width: 550px;
     }
 
-    .home > header > h1 {
+    .home__content > h1 {
         font-size: 3rem;
     }
 }

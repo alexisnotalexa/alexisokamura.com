@@ -6,9 +6,16 @@ const Home = () => {
     return (
         <div className='home'>
             <NavBar />
-            <header>
+            <div className='home__content'>
                 <h1>Hi, I'm Alexis, not <i>Alexa</i>.<br />I'm a Software Engineer based in Brooklyn, NY.</h1>
-            </header>
+            </div>
+            <div className='home__gradient'>
+                <div className='home__gradient__color' />
+                <div className='home__gradient__color' />
+                <div className='home__gradient__color' />
+                <div className='home__gradient__color' />
+                <div className='home__gradient__backdrop' />
+            </div>
             <Footer />
         </div>
     )
