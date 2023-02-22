@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedinIn, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faGithubAlt, faLinkedinIn, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import './Footer.css';
 
 const Footer = () => {
@@ -8,10 +9,9 @@ const Footer = () => {
         <footer>
             <p>{year} &copy; Alexis Okamura</p>
             <hr />
-            {/* <p>Linkedin</p> */}
             <FontAwesomeIcon icon={faLinkedinIn} />
-            {/* <p>Twitter</p> */}
-            <FontAwesomeIcon icon={faTwitter} />
+            <FontAwesomeIcon icon={faGithubAlt} />
+            <FontAwesomeIcon icon={faEnvelope} />
         </footer>
     )
 };
