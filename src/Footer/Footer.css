@@ -1,15 +1,27 @@
 footer {
-    width: -webkit-fill-available;
+    height: 55px;
+    width: 100%;
+    box-sizing: border-box;
     display: flex;
     align-items: center;
-    padding: 0 1rem;
+    justify-content: space-between;
+    padding: 1rem;
 }
 
-footer > svg {
-    margin-right: 0.5rem;
+footer > div {
+    display: flex;
+    align-items: center;
 }
 
-hr {
-    flex-grow: 1;
-    margin: 0 1rem;
+footer > p {
+    margin: 0;
+}
+
+.footer__icon {
+    cursor: pointer;
+    margin-left: 1rem;
+}
+
+.footer__icon:hover {
+    color: gray;
 }
