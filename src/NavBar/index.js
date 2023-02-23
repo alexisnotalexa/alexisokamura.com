@@ -10,14 +10,19 @@ const NavBar = () => {
             {isDarkMode ? '🌚' : '🌞'}
         </button>
     );
+
+    const renderLink = (text, to) => (
+        <Link to={to}>{text}</Link>
+    );
     
     return (
         <nav className='navbar'>
             <Link className='navbar__logo' to={'/'}>ao</Link>
+            <div />
             <div className='navbar__links'>
                 {renderThemeIcon()}
-                <Link to={'/about'}>About</Link>
-                <Link to={'/'}>Resume</Link>
+                {renderLink('About', '/about')}
+                {renderLink('Resume', '/')}
             </div>
         </nav>
     );

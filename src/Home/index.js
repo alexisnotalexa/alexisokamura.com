@@ -19,6 +19,7 @@ const Home = () => {
             <div className='home__content-container'>
                 <div className='home__content'>
                     <h1>Hi, I'm Alexis, not <i>Alexa</i>.<br />I'm a Software Engineer based in Brooklyn, NY.</h1>
+                    <span>-</span>
                     <h3>Blah blah blah</h3>
                     {renderGradientBlob()}
                 </div>
