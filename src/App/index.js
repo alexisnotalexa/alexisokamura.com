@@ -1,24 +1,14 @@
+import Footer from 'Footer';
+import NavBar from 'NavBar';
+import { Outlet } from 'react-router-dom';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <a
-          className="App-link"
-          href="/home"
-          rel="noopener noreferrer"
-        >
-          Home
-        </a>
-        <a
-          className="App-link"
-          href="/about"
-          rel="noopener noreferrer"
-        >
-          About
-        </a>
-      </header>
+    <div className="app">
+      <NavBar />
+      <Outlet />
+      <Footer />
     </div>
   );
 }

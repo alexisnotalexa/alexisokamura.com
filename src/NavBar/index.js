@@ -18,7 +18,6 @@ const NavBar = () => {
     return (
         <nav className='navbar'>
             <Link className='navbar__logo' to={'/'}>ao</Link>
-            <div />
             <div className='navbar__links'>
                 {renderThemeIcon()}
                 {renderLink('About', '/about')}

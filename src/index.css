@@ -13,6 +13,8 @@ code {
 
 hr {
   height: 1px;
-  background-color: lightgray;
+  background-color: black;
   border: 0;
+  flex: 1;
+  margin: 0.5rem;
 }
