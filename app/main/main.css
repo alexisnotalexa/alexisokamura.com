@@ -1,0 +1,23 @@
+p.bubble {
+    margin: 0 0 0.5em;
+    border-radius: 1em;
+    padding: 0.5em 1em;
+    max-width: 75%;
+    clear: both;
+    float: right;
+    background-color: #007aff; /* replace @blue with actual color */
+    color: white;
+    position: relative;
+  }
+  
+  p.bubble::after {
+    content: "";
+    position: absolute;
+    right: -0.5em;
+    bottom: 0;
+    width: 0.5em;
+    height: 1em;
+    border-left: 0.5em solid #007aff; /* replace @blue here too */
+    box-sizing: unset;
+    border-bottom-left-radius: 1em 0.5em;
+  }
