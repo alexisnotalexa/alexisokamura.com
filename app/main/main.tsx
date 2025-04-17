@@ -220,13 +220,22 @@ function Contact() {
 
 function Footer() {
     return (
-        <div className="flex flex-col items-center justify-center">
-            <p className="bubble">
-                follow my cat fred, @lilexoticfred
-            </p>
-            <img src={fred} style={{ width: 80, position: "fixed", left: "80vw", bottom: 0, zIndex: 50 }} />
-            <p className="text-xs">© 2025 Alexis Okamura</p>
-        </div>
+        <footer className="flex flex-col items-center w-full">
+            <p className="bubble hidden">follow my cat fred, @lilexoticfred</p>
+            <a
+                href="https://www.instagram.com/lilexoticfred"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block"
+            >
+                <img 
+                    src={fred} 
+                    alt="Frederick Winston" 
+                    className="block w-20 mb-2 xl:mb-0 xl:fixed xl:left-[calc(50%+450px)] xl:bottom-[5vh] xl:z-50 hover:translate-y-0.5"
+                />
+            </a>
+            <p>© 2025 Alexis Okamura</p>
+        </footer>
     );
 }
 
