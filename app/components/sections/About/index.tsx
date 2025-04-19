@@ -1,7 +1,7 @@
 import { Link } from 'react-router';
 import profilePic from './alexis-fred.jpg';
 
-export function About() {
+export default function About() {
   return (
     <div className="flex flex-col items-center text-center">
       <Link
