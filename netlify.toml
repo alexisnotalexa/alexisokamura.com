@@ -1,14 +1,9 @@
-[build.environment]
-  NODE_ENV = "development"
-
 [build]
-  command = "npm run build"
+  command = "react-router build"
   publish = "build/client"
 
 [dev]
-  command = "npm run dev"
-  targetPort = 3000
-  framework = "vite"
+  command = "react-router dev"
 
 [context.production.environment]
   NODE_ENV = "production"
