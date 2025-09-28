@@ -96,19 +96,6 @@ export default function Experience() {
       </div>
       <div className="flex-1 w-full" role="list">
         {jobs.map((experience) => renderJob(experience))}
-        <a
-          href="https://docs.google.com/document/d/1_51J00ObtTVf8BIMcWZuNjnIhfuLikkv0iPoSgQxRP4/edit?usp=sharing"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="group mb-0 transition-all duration-300 relative"
-        >
-          <span className="font-medium inline-block after:block after:h-0.5 after:w-full after:scale-x-0 after:bg-black after:transition-transform after:duration-300 after:origin-left group-hover:after:scale-x-100">
-            Resume
-          </span>
-          <span className="font-medium inline-block transition-transform duration-300 group-hover:translate-x-1">
-            &nbsp;→
-          </span>
-        </a>
       </div>
     </div>
   );

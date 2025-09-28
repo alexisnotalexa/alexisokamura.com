@@ -48,7 +48,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <Links />
         <script
           async
-          src="https://www.googletagmanager.com/gtag/js?id=UA-116340731-1"
+          src="https://www.googletagmanager.com/gtag/js?id=G-C7JTDL50DX"
         ></script>
         <script
           dangerouslySetInnerHTML={{
@@ -56,7 +56,8 @@ export function Layout({ children }: { children: React.ReactNode }) {
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
-              gtag('config', 'UA-116340731-1');
+
+              gtag('config', 'G-C7JTDL50DX');
             `,
           }}
         />
