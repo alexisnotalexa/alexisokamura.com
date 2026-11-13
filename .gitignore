@@ -1,9 +1,8 @@
 .DS_Store
 node_modules/
 
-# React Router
-/.react-router/
-/build/
+# Vite build output
+/dist/
 
 # Local Netlify folder
 .netlify
