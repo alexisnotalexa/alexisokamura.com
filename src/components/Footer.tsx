@@ -1,13 +1,23 @@
 function Footer() {
   return (
-    <footer className="mx-auto flex w-full max-w-content items-center justify-between px-4 py-6">
-      <div>
-        <a href="#">LinkedIn</a>
-        <a href="#">GitHub</a>
-        <a href="#">Resume</a>
-        <a href="#">Email</a>
+    <footer className="w-full bg-brand text-white">
+      <div className="mx-auto flex w-full max-w-content items-center justify-between px-4 pt-24 pb-[24px] lg:pt-32">
+        <div className="flex gap-6">
+          <a href="#" className="transition-opacity hover:opacity-70">
+            LinkedIn
+          </a>
+          <a href="#" className="transition-opacity hover:opacity-70">
+            GitHub
+          </a>
+          <a href="#" className="transition-opacity hover:opacity-70">
+            Resume
+          </a>
+          <a href="#" className="transition-opacity hover:opacity-70">
+            Email
+          </a>
+        </div>
+        <span className="text-sm">Designed and built by Alexis Okamura</span>
       </div>
-      <span>Designed and built by Alexis Okamura</span>
     </footer>
   );
 }

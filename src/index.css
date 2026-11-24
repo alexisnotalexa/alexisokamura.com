@@ -5,8 +5,26 @@
   --font-serif: 'Newsreader', serif;
   --container-content: 1352px;
   --color-brand: #234ecd;
+  --color-ink: #1a1a1a;
 }
 
 body {
   font-family: var(--font-sans);
+  color: var(--color-ink);
+}
+
+@layer components {
+  .link-underline {
+    background-image: linear-gradient(currentColor, currentColor);
+    background-size: 0% 1px;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    transition:
+      background-size 300ms ease,
+      color 300ms ease;
+  }
+
+  .link-underline:hover {
+    background-size: 100% 1px;
+  }
 }
